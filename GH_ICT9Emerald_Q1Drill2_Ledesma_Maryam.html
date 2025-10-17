@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Movie Recommendation Form</title>
+<style type="text/css">
+
+body { background-image:url(RUH.jpg); }
+
+form {  background-color:#FFFFFF;
+width: 60%;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 0 auto;
+      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); }
+
+
+
+
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<form>
+<fieldset>
+<h1> Movie Recommendation Form </h1>
+<hr>
+<label for="your name">Your name: </label>
+<br>
+<textarea colrs="1000" rows="2" placeholder="Jane Doe"></textarea>
+
+<br>
+
+<label for="your email">Your email: </label>
+<br>
+<textarea colrs="1000" rows="2" placeholder="jane_doe@gmail.com"></textarea>
+<br>
+
+<label for="recom movie">Recommended Movie Title: </label>
+<br>
+<input type="text" name="recom movie">
+<br>
+
+<label for="why recom">Why do you recommend it?: </label>
+<br>
+ <textarea colrs="285" rows="5" placeholder="feedback here..."></textarea>
+<br>
+<br>
+<label for="genre select">Genres (select all that apply):</label> <br>
+
+<input type="checkbox" name="genre" value="Action"> <label> Action </label>
+
+<input type="checkbox" name="genre" value="Comedy"> <label> Comedy </label>
+
+<input type="checkbox" name="genre" value="Drama"> <label> Drama</label>
+
+<input type="checkbox" name="genre" value="Fantasy"> <label> Fantasy</label>
+
+<input type="checkbox" name="genre" value="Sci-Fi"> <label> Sci-Fi </label>
+<br>
+<br>
+<label for="rate movie"> Rate the Movie: </label> <br>
+
+<input type="radio" name="movie rate" value="1"> <label> 1 </label>
+
+<input type="radio" name="movie rate" value="2"> <label> 2 </label>
+
+<input type="radio" name="movie rate" value="3"> <label> 3 </label>
+
+<input type="radio" name="movie rate" value="4"> <label> 4 </label>
+
+<input type="radio" name="movie rate" value="5"> <label> 5 (Best) </label>
+<br>
+<br>
+<label> Where did you watch it? </label>
+<br>
+<select id="select" name="platform">
+<option value="Netflix">Netflix</option>
+<option value="Peacock">Peacock</option>
+<option value="HBO">HBO</option>
+<option value="Youtube">Youtube</option>
+<option value="Other">Other</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Submit Recommendation">
+</fieldset>
+</form>
+
+</body>
+
+</html>
